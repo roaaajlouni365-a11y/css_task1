@@ -1,0 +1,23 @@
+.title {
+    color:orange;
+    text-align: left;
+    font-family: Georgia, serif;
+}
+
+.head {
+    text-align: right;
+    color: black;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.text1 {
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+
+.text2 {
+    text-align: right;
+    font-family: "Courier New", Courier, monospace;
+    color: blue;
+}

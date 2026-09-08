@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.box {
+    padding: 15px;
+    margin-bottom: 36px;
+    width: 90%;
+}
+h1 {
+    font-family: "Times New Roman", serif;
+}
+
+
+.box1 {
+    border: 1px solid black;
+}
+
+
+.box2 {
+    border: 1px dashed black;
+}
+
+.box22{
+    border: 1px dotted red ;
+    padding: 10px;
+}
+
+.box3 {
+    border: 1px solid gray;
+    color: purple;
+}
+
+.box3 h2 {
+    color: purple;
+}
+
+
+.highlight {
+    background-color: yellow;
+    color: black;
+}
+.highlight2{
+    background-color: rgb(255, 0, 119);
+    color: black;
+}
