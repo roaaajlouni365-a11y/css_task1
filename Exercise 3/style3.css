@@ -1,14 +1,8 @@
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
 .code {
     font-family: monospace;
     font-weight: bold;
     font-size: 16px;
     line-height: 1.5;
-    color: black;
 }
 .property {
     color: blue;
@@ -16,6 +10,6 @@ body {
 .value {
     color: green;
 }
-.indent {
+.in {
     margin-left: 30px;
 }
