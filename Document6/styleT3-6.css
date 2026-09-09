@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* 1. CSS Grid للحاوية الرئيسية (3 أعمدة متساوية) */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* 2. Flexbox لتنسيق الكارت داخلياً */
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #777;
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px;
+  color: #222;
+}
+
+.card-image img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-body {
+  padding: 12px;
+  color: #444;
+  line-height: 1.4;
+  /* flex-grow تجعل محتوى الكارت يتمدد ليدفع الـ footer للأسفل */
+  flex-grow: 1; 
+}
+
+/* 3. الـ Footer المثبت بأسفل الكارت */
+.card-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  margin-top: auto; /* يضمن بقاء الفوتر أسفل الكارت مهما اختلف حجم النص */
+}
